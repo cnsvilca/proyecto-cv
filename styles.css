@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #30475E;
+    color: #F5F5F5;
+}
+
+.navbar,
+.navbar-brand,
+.nav-link {
+    background-color: #F05454;
+    color: #F5F5F5;
+}
+
+#experiencia,
+#contacto {
+    background: #F5F5F5;
+    color: #30475E;
+    padding: 2em;
+}
+
+.articulo {
+    padding-bottom: 2em;
+}
+
+.content {
+    padding-bottom: 2em;
+}
+
+.img-container {
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#img-avatar {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+#img-tecnologias {
+    border-radius: 20px;
+    height: 400px;
+    width: auto;
+}
+
+#video {
+    border-radius: 20px;
+}
+
+.project-list {
+    list-style: none;
+}
+
+.project-list li {
+    margin-bottom: 30px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: var(--accent-color);
+    font-style: italic;
+}
+
+
+
+.socials {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+
+.socials-icon {
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 15px;
+    color: var(--accent-color);
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #F05454;
+    color: var(--accent-color);
+    padding: 20px;
+}
+
+.footer-section-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: var(--accent-color);
+    font-size: 18px;
+}
